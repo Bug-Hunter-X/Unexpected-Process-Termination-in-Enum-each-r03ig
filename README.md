@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Elixir related to improper use of Process.exit within Enum.each. The bug causes premature termination of the process, interrupting the iteration.  The solution showcases a safer alternative using a conditional return within the anonymous function.
